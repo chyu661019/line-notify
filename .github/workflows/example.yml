@@ -1,7 +1,6 @@
 name: LINE Notify example
 on:
-  issues:
-    types: opened
+  workflow_dispatch:
 jobs:
   notify:
     runs-on: ubuntu-latest
